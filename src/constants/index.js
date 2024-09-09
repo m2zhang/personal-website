@@ -16,8 +16,8 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
+    alberta,
+    amacss,
     shopify,
     carrent,
     jobit,
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Java Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI explorer",
       icon: creator,
     },
   ];
@@ -72,10 +72,11 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
+    /*
     {
       name: "TypeScript",
       icon: typescript,
-    },
+    }, */
     {
       name: "React JS",
       icon: reactjs,
@@ -92,10 +93,13 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
+    /*
     {
-      name: "MongoDB",
+      name: "MongoDB", ADD PYTHONNNN AND DJANGO!!!! AND FLASK
+      Maybe also make it so that when you hover, it like displays the item name
       icon: mongodb,
     },
+    */
     {
       name: "Three JS",
       icon: threejs,
@@ -108,65 +112,65 @@ import {
       name: "figma",
       icon: figma,
     },
+    /*
     {
-      name: "docker",
+      name: "Docer ",
       icon: docker,
     },
+    */
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Student Researcher",
+      company_name: "University of Alberta",
+      icon: alberta,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Evaluated gaussian and box blurring using Python, Pandas, and Matplotlib over the WIDER dataset to blur faces to protect privacy",
+        "Organized and parsed the WIDER dataset containing 50,574 images using regular expressions for data preparation.",
+        "Acquired foundational knowledge in machine learning and AI, specifically neural networks and linear regression",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "AMACSS First Year Student Coordinator",
+      company_name: "AMACSS (Association of Mathematical and Computer Science Students) Club",
+      icon: amacss,
+      iconBg: "#E6DEDD",
+      date: "Sept 2023 - April 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Coordinated a team of 12 to plan networking events for first-year students, engaging with 100+ CMS students",
+        "Contacted, networked, and formed connections with upper year students to attend networking event.",
+        "Publicly spoke in class to promote various AMACSS-led course review seminars.",
       ],
     },
+
+    {
+      title: "AMACSS Director of Technology",
+      company_name: "AMACSS (Association of Mathematical and Computer Science Students) Club",
+      icon: amacss,
+      iconBg: "#E6DEDD",
+      date: "Sept 2024 - Present",
+      points: [
+        "Developing and maintaining web application using React.js, NextJS, Supabase and Payload CMS.",
+        "Collaborating with other developers to create high-quality web application.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+      ],
+    },
+
+     /*
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Smth",
+      icon: meta - manifest lol,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    */
   ];
   
   const testimonials = [
