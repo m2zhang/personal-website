@@ -19,9 +19,9 @@ import {
     alberta,
     amacss,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    taam,
+    notesapp,
+    cscb20,
     threejs,
   } from "../assets";
   
@@ -223,7 +223,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: carrent,
+      image: taam,
       source_code_link: "https://github.com/m2zhang/TAAM-item-management-app",
     },
     {
@@ -244,13 +244,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: notesapp,
       source_code_link: "https://github.com/m2zhang/django-react-notes-app",
     },
     {
       name: "CSCB20 (Introduction to Databases) Course Page",
       description:
-        "Description",
+        "UI/UX-optimized course webpage for CSCB20 (Introduction to Databases and Web Applications) course at UofT.",
       tags: [
         {
           name: "Python Flask",
@@ -269,8 +269,8 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/m2zhang/django-react-notes-app",
+      image: cscb20,
+      source_code_link: "https://github.com/m2zhang/b20-assignment3",
     },
   ];
   

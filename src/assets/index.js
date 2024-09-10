@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import alberta from "./company/alberta.png";
 import amacss from "./company/amacss.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import taam from "./taam.png";
+import notesapp from "./notesapp.png";
+import cscb20 from "./cscb20.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   alberta,
   amacss,
-  carrent,
-  jobit,
-  tripguide,
+  taam,
+  notesapp,
+  cscb20,
 };
