@@ -37,8 +37,9 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon, name }) => {
   return (
+    <>
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
@@ -51,6 +52,9 @@ const BallCanvas = ({ icon }) => {
 
       <Preload all />
     </Canvas>
+    <div style={{ marginTop: '10px', color: 'white', textAlign: 'center' }}>{name}</div>
+    </>
+
   );
 };
 

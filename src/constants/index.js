@@ -202,67 +202,75 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TAAM Item Management App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Dynamic item ollection management Android Java application for the Toronto Asian Art Museum's with data storage and retrieval functionality using Firebase real-time database.",
       tags: [
         {
-          name: "react",
+          name: "Java/Kotlin",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase Real-time Database",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Android Studio",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "XML",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/m2zhang/TAAM-item-management-app",
+    },
+    {
+      name: "Django-React Notes App",
+      description:
+        "Responsive notes application using ReactJS for the front-end featuring dynamic addition, deletion, and real-time updates of notes, as well as user authentication and authorization with JWT Tokens.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python Django",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQLAlchemy",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/m2zhang/django-react-notes-app",
     },
     {
-      name: "Job IT",
+      name: "CSCB20 (Introduction to Databases) Course Page",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Description",
       tags: [
         {
-          name: "react",
+          name: "Python Flask",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
+          name: "SQLAlchemy",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: carrent,
+      source_code_link: "https://github.com/m2zhang/django-react-notes-app",
     },
   ];
   
