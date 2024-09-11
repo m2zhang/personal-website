@@ -114,7 +114,7 @@ import {
     },
     /*
     {
-      name: "Docer ",
+      name: "Docker ",
       icon: docker,
     },
     */
